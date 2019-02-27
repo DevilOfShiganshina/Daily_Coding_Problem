@@ -32,3 +32,7 @@ PerfSquareSum$ ./exe
 Please enter an integer greater than 0: 27
 N: 27   Num of minimum perfect squares: 3
 ```
+
+# Algorithm Used
+
+Lagrange's Four Square Theorem
