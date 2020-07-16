@@ -1,2 +1,2 @@
 all:
-	g++ -std=c++11 -o exe Main.cc
+	g++ -std=c++11 -o exe *.cc
