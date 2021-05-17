@@ -8,6 +8,7 @@ int Duplicate(int arr[], int size) {
       arr[abs(arr[i])] = -arr[abs(arr[i])];
     }
   }
+  return 0;
 }
 
 int main() {
