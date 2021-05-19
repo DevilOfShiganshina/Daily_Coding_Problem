@@ -29,7 +29,6 @@ void PrintArray(int arr[], int size) {
 int main()
 {
 	int list[] = { -6, 0, 2, 40 };
-	//int list[] = { -1, 5, 7, 8 };
 	int size = sizeof(list) / sizeof(*list);
 	int index = -1;
 
@@ -37,6 +36,17 @@ int main()
 	PrintArray(list, size);
 
 	if (FixedPoint(list, size, index) == true) {
+		cout << "The fixed point is: " << index << endl;
+	} else {
+		cout << "List contains no fixed points!" << endl;
+	}
+
+	int list2[] = { -1, 5, 7, 8 };
+	size = sizeof(list2) / sizeof(*list2);
+	cout << "The original array is: ";
+	PrintArray(list2, size);
+
+	if (FixedPoint(list2, size, index) == true) {
 		cout << "The fixed point is: " << index << endl;
 	} else {
 		cout << "List contains no fixed points!" << endl;
