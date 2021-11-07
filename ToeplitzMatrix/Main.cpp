@@ -1,11 +1,6 @@
 #include <iostream>
 
 bool toeplitz(int arr[4][5], int arr_i, int arr_j) {
-  for (int i = 0; i < arr_i; i++) {
-    for (int j = 0; j < arr_j; j++) {
-      std::cout << arr[i][j] << " ";
-    } std::cout << std::endl;
-  }
   return true;
 }
 
